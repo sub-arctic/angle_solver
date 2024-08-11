@@ -20,14 +20,14 @@ The Law of Cosines relates the lengths of the sides of a triangle to the cosine 
 $$ c^2 = a^2 + b^2 - 2ab \cdot \cos(C) $$
 
 Where:
-- $ c $ is the length of the side opposite angle $ C $.
-- $ a $ and $ b $ are the lengths of the other two sides.
+- `c` is the length of the side opposite angle ` C `.
+-  `a ` and ` b ` are the lengths of the other two sides.
 
-From this formula, we can derive the angle $ C $:
+From this formula, we can derive the angle ` C `:
 
 $$ \cos(C) = \frac{a^2 + b^2 - c^2}{2ab} $$
 
-The angle $ C $ can then be calculated using the inverse cosine function:
+The angle ` C ` can then be calculated using the inverse cosine function:
 
 $$ C = \arccos\left(\frac{a^2 + b^2 - c^2}{2ab}\right) $$
 
@@ -38,7 +38,7 @@ $$ AB + AC > BC $$
 $$ AB + BC > AC $$
 $$ AC + BC > AB $$
 
-If these conditions are not met, the points do not form a triangle.
+If these conditions are not met, the points do not form a triangle, and the program exits.
 
 ## Usage
 
