@@ -35,7 +35,9 @@ $$ C = \arccos\left(\frac{a^2 + b^2 - c^2}{2ab}\right) $$
 The triangle inequality theorem states that for any three sides of a triangle, the sum of the lengths of any two sides must be greater than the length of the third side. This can be expressed as:
 
 $$ AB + AC > BC $$
+
 $$ AB + BC > AC $$
+
 $$ AC + BC > AB $$
 
 If these conditions are not met, the points do not form a triangle, and the program exits.
